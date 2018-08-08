@@ -53,7 +53,7 @@ set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${PROJECT_OUTPUT_DIR}/lib)
 
 # build C/C++ interface
 include_directories(${PROJECT_INCLUDE_DIR} ${GIE_PATH}/include)
-include_directories(/usr/include/gstreamer-1.0 /usr/lib/aarch64-linux-gnu/gstreamer-1.0/include /usr/include/glib-2.0 /usr/include/libxml2 /usr/lib/aarch64-linux-gnu/glib-2.0/include/)
+include_directories(/usr/include/gstreamer-1.0 /usr/lib/x86_64-linux-gnu/gstreamer-1.0/include /usr/include/glib-2.0 /usr/include/libxml2 /usr/lib/x86_64-linux-gnu/glib-2.0/include/)
 
 file(GLOB inferenceSources *.cpp *.cu camera/*.cpp cuda/*.cu display/*.cpp)
 file(GLOB inferenceIncludes *.h camera/*.h cuda/*.h display/*.h)
